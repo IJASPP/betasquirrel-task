@@ -1,0 +1,219 @@
+body{
+    background-color:white;
+    margin: 0 auto;
+}
+#navbar{
+    background-color: gray;
+    height: 80px;
+     display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+#logo-container{
+    width: 300px;
+    float: left;
+    display: flex;
+    justify-content:flex-start;padding: 15px;
+}
+#logo-container img{
+    height: 60px;
+    margin-right: 15px;
+}
+#logo-container h2{
+    display: inline-block;
+    color:white
+}
+#profile-container{
+    width: auto;
+    width: 250px;
+    float: right;
+}
+#profile-container > img{
+    height: 60px;
+    border-radius: 50%;
+    float: right;
+}
+.main{
+    height:calc(100vh - 81px);
+    position: relative;
+    overflow: hidden;
+    /* background-color: pink; */
+}
+#sidebar{
+    background-color: gray;
+    height: 100%;
+    width: 115px;
+    float: left;
+}
+.container > h2{
+    color:aliceblue;
+    margin: 0 0 15px 0;
+    text-decoration: underline;
+}
+#container{
+    padding: 15px;
+    float:left;
+    width: calc(100vw - 180px);
+}
+.green-bg{
+    background-color: green;
+}
+.purple-bg{
+     background-color: purple;
+    }
+.red-bg{
+    background-color: red;
+}
+.cyan-bg{
+    background-color: cyan;
+}
+#tile-container, #circle-container{
+    display: flex;
+    height: 150px;    
+}
+.tile{
+height: 130px;
+width:calc(100% / 4);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.tile h2,
+.tile h3{
+ color: white;   
+}
+.tile,
+.circle,.chart{
+    width:calc(100% / 4);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+ } 
+.circle,
+.chart{;
+    margin-right: 15px;
+}
+.circle,.chart{
+    width:calc(100% / 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    
+}
+.circle{
+    border-radius: 50%;
+    width:calc(100% / 4);
+}
+#tile-container > div, #circle-container {
+    margin-right: 20px; 
+}
+#tile-container > div:last-child, #circle-container {
+    margin-right: 0;
+}
+.inner-one{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-one h2, .inner-four h2{
+    color: white;
+}
+.inner-two{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.inner-two h2{
+    color: #555;
+}
+.inner-three{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7262;
+}
+.inner-four {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+.bar{
+    width: 15px;
+    position: absolute;
+    overflow: hidden;
+}
+.chart{
+    position: relative;
+}
+.chart div{
+    bottom: 0;
+}
+.one{
+    left: 0;
+    height: calc((100%) - 30px);
+}
+.two{
+    left: 25px;
+    height: calc(100% - 10px);
+}
+.three{
+    left: 50px;
+    height: calc(100% - 70px);
+}
+.four{
+    left: 75px;
+    height: calc(100% - 100px);
+}
+.five{
+    left: 100px;
+    height: calc(100% - 20px);
+}
+.six{
+    left: 125px;
+    height: calc(100% - 50px);
+}
+.line{
+    width: 100%;
+    height: 8px;
+    background-color:black ;
+    position: absolute;
+}
+#sidebar nav{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+}
+#sidebar nav a{
+    color: white;
+    padding: 5px;
+}
+#sidebar nav a:first-child{
+    padding: 0;
+}
+#sidebar nav a.active{
+    color: green;
+    text-decoration: none;
+}
