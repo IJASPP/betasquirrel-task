@@ -3,7 +3,7 @@ Assignments from  betasquirrel
 
 
 ## DEMO
-- [LINK](https://github.com/IJASPP/betasquirrel-task/blob/main/index.html)
+- [LINK](https://ijaspp.github.io/betasquirrel-task/)
 
 ## TASKS
 
