@@ -42,3 +42,8 @@
 .left h2 {
     display: inline;
 }
+.right a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
