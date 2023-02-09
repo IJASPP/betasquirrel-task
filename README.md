@@ -36,6 +36,7 @@ Assignments from  betasquirrel
 3. `git add` - Add your files changes to git Ex:` git add .`
 4. `git commit` - commit changes to git Ex:` git commit -m "internal commit"`
 5. `git push` - push your local commit to remote repo Ex:`git push origin main`
+6. `git reset --hard` - used to undo local changes to the state of a Git repo  
 ## TASK 5
 - [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
 - [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
