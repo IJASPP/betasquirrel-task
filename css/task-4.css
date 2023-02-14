@@ -72,7 +72,8 @@ body {
 #tile-container,
 #circle-container {
   display: flex;
-  height: 150px;
+  margin-bottom: 20px;
+  /* height: 150px; */
 }
 .tile {
   height: 130px;
@@ -99,14 +100,14 @@ body {
 .chart {
   margin-right: 15px;
 }
-.circle,
+/* .circle,
 .chart {
   width: calc(100% / 4);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 .circle {
   width: 250px;
   height: 250px;
