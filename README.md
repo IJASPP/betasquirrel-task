@@ -4,6 +4,10 @@ Assignments from  betasquirrel
 
 ## DEMO
 - [LINK](https://ijaspp.github.io/betasquirrel-task/)
+## linkedin
+- [link](https://www.linkedin.com/in/muhammed-ijas-pp-6a6714194/)
+## stackoverflow
+- [link](https://www.linkedin.com/in/muhammed-ijas-pp-6a6714194/)
 
 ## TASKS
 
