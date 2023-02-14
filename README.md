@@ -9,8 +9,8 @@ Assignments from  betasquirrel
 
 | Requirments                 | Output                       |
 |-----------------------------|------------------------------|
-|![TASK 1](images/input-1.jpg)|![TASK 1](/output-1.png)|
-|![TASK 2](images/input-2.jpg)|![TASK 2](/output-2.png)|
+|![TASK 1](images/input-1.jpg)|![TASK 1](images/output-1.png)|
+|![TASK 2](images/input-2.jpg)|![TASK 2](images/output-2.png)|
 |![TASK 4](images/input-4.jpg)|![TASK 4](images/output-4.png)|
 ## TASK 3
 - [HTML Basic](https://www.w3schools.com/html/html_basic.asp)
