@@ -132,16 +132,12 @@ div {
   #navbar{
     display:none;
   }
-  .first{
-    width: 85%;
-    height: 180px;
-  }
-  .second{
-    width: 85%;
-    height: 180px;
-  }
   .box{
     height: 450px;
+  }
+  .boxes{
+    padding: 0;
+    height: 200px;
   }
   .empty{
     width: 92%;
