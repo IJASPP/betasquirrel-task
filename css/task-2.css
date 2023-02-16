@@ -23,7 +23,6 @@ body {
   height: 160px;
   width: 30%;
   float: left;
-  margin-bottom: 20px;
   margin-top: 20px;
   padding: 15px;
 }
@@ -94,6 +93,9 @@ div {
   float: right;
 }
 @media only screen and (max-width : 1148px){
+  #navbar{
+    display:none;
+  }
   .box{
     height: 450px;
   }
@@ -105,29 +107,10 @@ div {
     margin: 20px 20px 20px 30px;
   }
 }
-  @media only screen and (max-width : 328px){
-  .first{
-    width: 80%;
-    height: 200px;
-    margin-bottom: 5px;
+@media only screen and (max-width : 768px){
+  #navbar{
+    display:none;
   }
-  .second{
-    width: 80%;
-    height: 200px;
-    float: left;
-  }
-  .box {
-    width: 90%;
-    height: 500px;
-  }
-  .empty{
-    width: 90%;
-  }
-  .empty1{
-    width: 85%;
-  }
-}
-@media only screen and (min-width : 768px){
   .box{
     width: 94%;
   }
@@ -143,5 +126,27 @@ div {
   }
   .empty1{
     width: 93.3%;
+  }
+}
+@media only screen and (max-width : 320px){
+  #navbar{
+    display:none;
+  }
+  .first{
+    width: 85%;
+    height: 180px;
+  }
+  .second{
+    width: 85%;
+    height: 180px;
+  }
+  .box{
+    height: 450px;
+  }
+  .empty{
+    width: 92%;
+  }
+  .empty1{
+    width: 85%;
   }
 }
