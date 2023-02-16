@@ -7,7 +7,7 @@ Assignments from  betasquirrel
 ## Profile Links
 - [Github](https://github.com/IJASPP)
 - [Linkedin](https://www.linkedin.com/in/muhammed-ijas-pp-6a6714194/)
-- [Stackoverflow](https://www.linkedin.com/in/muhammed-ijas-pp-6a6714194/)
+- [Stackoverflow](https://stackoverflow.com/users/21194325/muhammed-ijas-pp)
 
 ## TASKS
 
