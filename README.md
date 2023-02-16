@@ -4,10 +4,10 @@ Assignments from  betasquirrel
 
 ## DEMO
 - [LINK](https://ijaspp.github.io/betasquirrel-task/)
-## linkedin
-- [LINK](https://www.linkedin.com/in/muhammed-ijas-pp-6a6714194/)
-## stackoverflow
-- [LINK](https://www.linkedin.com/in/muhammed-ijas-pp-6a6714194/)
+## Profile Links
+- [Github](https://github.com/IJASPP)
+- [Linkedin](https://www.linkedin.com/in/muhammed-ijas-pp-6a6714194/)
+- [Stackoverflow](https://www.linkedin.com/in/muhammed-ijas-pp-6a6714194/)
 
 ## TASKS
 
@@ -41,6 +41,12 @@ Assignments from  betasquirrel
 4. `git commit` - commit changes to git Ex:` git commit -m "internal commit"`
 5. `git push` - push your local commit to remote repo Ex:`git push origin main`
 6. `git reset --hard` - used to undo local changes to the state of a Git repo  
+7. `git config --list` - to see the config added
+8. `git reset --hard` - remove all changes
+9. `git status` - to see the current changes as list
+10. `git diff` - see the changes on each file
+11. `git log` - see commit history
+12. `git stash` - stash your uncommitted changes
 ## TASK 5
 - [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
 - [HTML Tables](https://www.w3schools.com/html/html_tables.asp)

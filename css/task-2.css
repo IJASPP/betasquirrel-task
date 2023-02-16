@@ -92,8 +92,11 @@ div {
   background-color: #85DF7F;
   float: right;
 }
-@media only screen and (max-width : 1148px){
+ @media only screen and (max-width : 1148px){
   #navbar{
+    width: 100%;
+  }
+  .right a{
     display:none;
   }
   .box{
@@ -104,11 +107,14 @@ div {
   }
   .second{
     width: 93%;
-    margin: 20px 20px 20px 30px;
+    margin: 20px 0px 0px 30px;
   }
 }
-@media only screen and (max-width : 768px){
+ @media only screen and (max-width : 768px){
   #navbar{
+    width: 100%;
+  }
+  .right a{
     display:none;
   }
   .box{
@@ -126,10 +132,10 @@ div {
   }
   .empty1{
     width: 93.3%;
-  }
-}
-@media only screen and (max-width : 320px){
-  #navbar{
+  } 
+ } 
+@media only screen and (max-width : 383px){
+  .right a{
     display:none;
   }
   .box{
@@ -145,4 +151,4 @@ div {
   .empty1{
     width: 85%;
   }
-}
+} 

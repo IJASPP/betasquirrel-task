@@ -15,8 +15,8 @@ body {
 .boxes {
   background-color: #D4D8E3;
   height: 200px;
-  width: 32%;
   float: left;
+  width:  32.8%;
 }
 .m-r {
   margin-right: 10px;
@@ -53,7 +53,22 @@ body {
   text-decoration: none;
   padding: 15px; 
 }
-@media only screen and (max-width : 1197px) {
+@media only screen and (max-width : 1260px){
+  .right a {
+    display: none;
+  }
+  .boxes{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 250px;
+  }
+  #navbar,
+  #main-container {
+    width: 100%;
+  }
+  
+}
+/* @media only screen and (max-width : 1197px) {
   #main-contianer{
     height: 500px;
     width: 100%;
@@ -78,4 +93,4 @@ body {
   #main-conatainer{
     height: 200px;
 }
-}
+} */

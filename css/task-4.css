@@ -15,16 +15,18 @@ body {
   float: left;
   display: flex;
   justify-content: flex-start;
-  padding: 15px;
+  /* padding: 15px; */
+  float: left;
 }
 #logo-container img {
   height: 60px;
-  margin-right: 15px;
+  /* margin-right: 15px; */
+  width: 80px;
 }
 #logo-container h2 {
   display: inline-block;
   color: white;
-}
+  }
 #profile-container {
   width: auto;
   width: 250px;
@@ -44,7 +46,7 @@ body {
 #sidebar {
   background-color: gray;
   height: 100%;
-  width: 115px;
+  width: 130px;
   float: left;
 }
 .container > h2 {
@@ -53,9 +55,9 @@ body {
   text-decoration: underline;
 }
 #container {
-  padding: 15px;
+  padding: 15px 0px 15px 15px;
   float: left;
-  width: calc(100vw - 180px);
+  width: calc(100vw - 161px);
 }
 .green-bg {
   background-color: green;
@@ -72,7 +74,7 @@ body {
 #tile-container,
 #circle-container {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 23px;
   /* height: 150px; */
 }
 .tile {
@@ -98,7 +100,7 @@ body {
 }
 .circle,
 .chart {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 /* .circle,
 .chart {
