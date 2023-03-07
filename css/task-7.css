@@ -44,7 +44,7 @@ body {
 }
 #sidebar {
   height: 100%;
-  width: 130px;
+  width: 160px;
   float: left;
 }
 #sidebar nav {
@@ -66,7 +66,7 @@ body {
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 .details {
   display: flex;
@@ -75,7 +75,7 @@ body {
 }
 .title {
   text-decoration: underline;
-  margin: 23px 20px 20px 15px;
+  margin: 26px 20px 20px 15px;
 }
 .firstname,
 .mobile,
@@ -92,17 +92,19 @@ body {
 .Facility {
   display: flex;
   margin-top: 5px;
+  flex-direction: column;
 }
 .firstname,
 .lastname,
 .mobile,
 .email {
-  width: 300px;
+  width: 30%;
 }
 .firstname,
 .mobile,
 .branch {
-  margin-right: 150px;
+  margin-right: 15%;
+  width: 30%;
 }
 .address {
   display: flex;
@@ -137,6 +139,9 @@ body {
 .subject {
   padding: 15px;
 }
+.subject1 {
+  padding: 15px 15px 15px 0;
+}
 .lab {
   margin-top: 15px;
 }
@@ -146,7 +151,10 @@ body {
 }
 .input {
   padding: 12px;
-  width: 300px;
+  width: 100%;
+}
+.mar{
+  margin-left: 0;
 }
 .rad {
   margin-right: 10px;
@@ -162,21 +170,74 @@ body {
 .radio {
   margin-left: 15px;
 }
-@media only screen and (max-width: 900px) {
+.flex{
+  display: flex;
+   align-items:center ;
+}
+nav img,
+nav i {
+  width: 25px;
+  margin-right: 10px;
+}
+nav i {
+  color: gray;
+}
+.branch{
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
   #sidebar nav {
     display: none;
   }
   .container {
     margin: 0 auto;
+    overflow: hidden;
   }
   #sidebar {
     display: none;
   }
   .form-container {
     margin-left: 50px;
-    overflow: hidden;
   }
   .title {
     margin-left: 50px;
+  }
+  .firstname,
+.lastname,
+.mobile,
+.email,
+.branch,
+.Facility {
+  width: calc(100% - 50px);
+}
+.address{
+  width: calc(100% - 50px);
+}
+.last{
+  margin-left: 80px;
+}
+.red{
+  margin-bottom: 15px;
+}
+}
+@media only screen and (max-width: 991px and min-width: 769px) {
+  #sidebar nav {
+    display: none;
+  }
+  .container {
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  #sidebar {
+    display: none;
+  }
+  .form-container {
+    margin-left: 50px;
+  }
+  .title {
+    margin-left: 50px;
+  }
+  .last{
+    float: left;
   }
 }

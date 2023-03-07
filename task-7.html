@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
     <title>Task 7</title>
+    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/task-7.css">
 </head>
 <body>
@@ -20,9 +30,15 @@
     <div class="main">
         <div id="sidebar">
             <nav>
-                <a href="">STUDENTS</a>
-                <a href="">STAFF</a>
-                <a href="">EXAMS</a>
+              <a href="" class="flex">
+                <i class="fa-solid fa-user"></i>
+                STUDENTS</a>
+              <a href="" class="flex">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                STAFF</a>
+              <a href="" class="flex">
+                <i class="fa-solid fa-graduation-cap"></i>
+                EXAMS</a>
             </nav>
         </div>
         <div class="container">
@@ -70,11 +86,11 @@
           </div>
           <div class="form-control Facility">
             <label >Do You Need Hostel Facility:</label>
-          </div>
-          <div class="subject" >  
-            <label for="" class="rad"><input type="radio" name="need" value="yes"/>Yes</label>
+          <span class="subject1" >  
+            <label for="" class="rad"><input type="radio" name="need" value="yes" class="mar"/>Yes</label>
             <input type="radio" name="need" value="no" />No
-          </div>
+          </span>
+        </div>
           <div class="sec-div lab">
             <label>Choose Additional subjects:</label>
            <div class="lab">

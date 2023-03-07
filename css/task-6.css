@@ -43,13 +43,13 @@ body {
 }
 #sidebar {
   height: 100%;
-  width: 160px;
+  width: 170px;
   float: left;
 }
 #container {
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 3px 0 0 30px;
+  padding: 6px 0 0 30px;
 }
 #sidebar nav {
   height: 500px;
@@ -91,4 +91,29 @@ table {
 .right a {
   color: white;
   text-decoration: none;
+}
+.flex{
+  display: flex;
+   align-items:center ;
+}
+nav img,
+nav i {
+  width: 25px;
+  margin-right: 10px;
+}
+nav i {
+  color: #8A6B4F;
+}
+@media only screen and (max-width: 768px) {
+  #sidebar nav {
+    display: none;
+  }
+  .container {
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  #sidebar {
+    display: none;
+  }
+  
 }
