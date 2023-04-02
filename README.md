@@ -92,4 +92,6 @@ Assignments from  betasquirrel
 - [PHP Functins](https://www.w3schools.com/php/php_functions.asp)
 - [PHP Arrays](https://www.w3schools.com/php/php_arrays.asp)
 - [PHP Superglobals](https://www.w3schools.com/php/php_superglobals.asp)
+
+
 [def]: images/output-2.png
